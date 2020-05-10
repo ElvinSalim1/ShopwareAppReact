@@ -44,7 +44,7 @@ export default function ProductViews({match}) {
                     <div className="col-lg-5 text-center text-md-left">
                     <h2
                         className="h2-responsive text-center text-md-left product-name font-weight-bold dark-grey-text mb-1 ml-xl-0 ml-4">
-                        <h2>{product.name}</h2>
+                        <span>{product.name}</span>
                     </h2>
                     <h4 className="h3-responsive text-center text-md-left mb-5 ml-xl-0 ml-4">
                         <span className="red-text"><h4>{product.price} SEK</h4></span>
